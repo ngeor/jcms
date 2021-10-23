@@ -34,7 +34,7 @@ public class NodeWriter extends XMLWriter {
     public void writeNode(Node node) throws java.io.IOException {
         Node[] children = node.getChildren();
         Node[] parents = node.getParents();
-        boolean hasSubNodes = (children != null && children.length > 0) || (parents != null && parents.length > 0);
+        boolean hasSubNodes = children != null && children.length > 0 || parents != null && parents.length > 0;
         write("<");
         write(node.getType().getName());
         writeNodeAttributes(node);
