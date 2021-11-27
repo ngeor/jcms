@@ -11,6 +11,13 @@
   <version>1.8.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>jcms Maven Webapp</name>
+  <url>https://github.com/ngeor/jcms</url>
+  <scm>
+    <connection>scm:git:https://github.com/ngeor/jcms.git</connection>
+    <developerConnection>scm:git:git@github.com:ngeor/jcms.git</developerConnection>
+    <tag>HEAD</tag>
+    <url>https://github.com/ngeor/jcms</url>
+  </scm>
   <properties>
     <maven.deploy.skip>true</maven.deploy.skip>
   </properties>
