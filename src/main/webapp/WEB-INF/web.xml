@@ -1,7 +1,6 @@
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
-          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-          xsi:schemaLocation="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
-          version="2.5">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="2.5">
   <display-name>jcms</display-name>
   <filter>
     <filter-name>XHtmlFilter</filter-name>
@@ -31,7 +30,7 @@
   <servlet>
     <servlet-name>XHtmlServlet</servlet-name>
     <servlet-class>org.jcms.servlets.XHtmlServlet</servlet-class>
-  </servlet>  
+  </servlet>
   <servlet-mapping>
     <servlet-name>AddUserServlet</servlet-name>
     <url-pattern>/users/Add</url-pattern>
@@ -48,7 +47,7 @@
     <servlet-name>XHtmlServlet</servlet-name>
     <url-pattern>*.xhtml</url-pattern>
   </servlet-mapping>
-  
+
   <session-config>
     <session-timeout>
             30

@@ -6,11 +6,12 @@
 
 package org.jcms.dbfactory;
 
+import org.jcms.model.Node;
+import org.jcms.model.NodeType;
+
 import java.util.Enumeration;
 import java.util.Hashtable;
 import java.util.Vector;
-import org.jcms.model.Node;
-import org.jcms.model.NodeType;
 
 /**
  * Configuration class.

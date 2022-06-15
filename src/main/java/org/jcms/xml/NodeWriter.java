@@ -6,8 +6,9 @@
 
 package org.jcms.xml;
 
-import java.io.Writer;
 import org.jcms.model.Node;
+
+import java.io.Writer;
 
 /**
  * @author ngeor

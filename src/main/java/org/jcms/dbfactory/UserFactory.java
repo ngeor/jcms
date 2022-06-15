@@ -6,14 +6,11 @@
 
 package org.jcms.dbfactory;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.Vector;
 import org.jcms.model.IDEntity;
 import org.jcms.model.User;
+
+import java.sql.*;
+import java.util.Vector;
 
 /**
  * @author ngeor
